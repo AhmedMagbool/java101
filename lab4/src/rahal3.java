@@ -33,5 +33,21 @@ public class rahal3 {
         System.out.println("\t\tAfter swapping, n1 is " + n1
       
          + " and n2 is " + n2);
+
+         int[] values = new int[5];
+
+         for (int i = 1; i < 5; i++) {
+       
+           values[i] = i * i ;
+       
+           }
+       
+       values[0] = values[1] + values[4];
+       
+       
+       
+        for (int i = 0; i < 5; i++) 
+       
+           System.out.println(values[i]);   
     }
 }
